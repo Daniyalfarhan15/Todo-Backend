@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000; //jab backend deploy karte hen
 //  to ye zarori nahi ke wo jo routes chala rahe he same is lye ye karte hen
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://sufiyan-todo-frontend.surge.sh"],
+    origin: ["http://localhost:5173", "https://profuse-donkey.surge.sh"],
   })
 );
 
